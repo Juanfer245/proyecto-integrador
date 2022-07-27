@@ -34,3 +34,9 @@ div.col {
     margin-top:60px ;
    
 }
+
+#footer{
+    background-color: rgb(247, 216, 171);
+    color: #000000;
+    font-family:rockwell;
+}
