@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>American Latin Class</title>
-    <link rel="stylesheet" href="/login/login.css" />
+    <link rel="stylesheet" href="/registro/registro.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 </head>
@@ -40,35 +40,49 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 col-md-6 d-none d-md-block image-container">
-                <img src="/img/american2.jpg" alt="Inicio de Sesion" width="100%" id="image-container">
+                <img src="/img/part.jpg" alt="Registro" width="100%" id="image-container">
             </div>
             <div class="col-lg-6 col-md-6 form-container">
                 <div class="col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center">
                     <div class="logo mb-3">
-                        <img src="/img/login-blanco.png" alt="Inicio de Sesion" width="150px">
+                        <img src="/img/icono-registro.png" alt="Registro" width="100px">
                     </div>
                     <div class="heading mb-4">
-                        <h4>Iniciar Sesion</h4>
+                        <h4>Crear Cuenta</h4>
                     </div>
                     <form>
                         <div class="form-input">
+                            <span><i class="fa fa-user"></i></span>
+                            <input type="text" placeholder="Nombre de Usuario" required>
+                        </div>
+                        <div class="form-input">
                             <span><i class="fa fa-envelope"></i></span>
-                            <input type="email" placeholder="Nombre de Usuario" required>
+                            <input type="email" placeholder="E-mail" required>
                         </div>
                         <div class="form-input">
                             <span><i class="fa fa-lock"></i></span>
                             <input type="password" placeholder="Contraseña" required>
-                        </div>                        
-                        <div class="text-left mb-3">
-                            <button type="submit" class="btn">Iniciar Sesion</button>
-                        </div>                        
-                        <div style="color: #777;">No tienes cuenta
-                        <a href="register.html" class="register-link">Registrate Aqui</a>
                         </div>
+                        <div class="form-input">
+                            <span><i class="fa fa-user"></i></span>
+                            <input type="text" placeholder="Dirección" required>
+                        </div>
+                        <div class="form-input">
+                            <span><i class="fa fa-user"></i></span>
+                            <input type="text" placeholder="Teléfono" required>
+                        </div>
+                        <div class="form-input">
+                            <span><i class="fa fa-user"></i></span>
+                            <input type="text" placeholder="Fecha de Nacimiento" required>
+                        </div>
+                        <div class="text-left mb-3">
+                            <button type="submit" class="btn">Crear Cuenta</button>
+                        </div>                        
                     </form>
                 </div>
             </div>
         </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
     integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
     crossorigin="anonymous"></script>
