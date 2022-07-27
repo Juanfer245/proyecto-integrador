@@ -1,0 +1,36 @@
+#logo {
+    max-width: 120px;
+}
+
+div.col {
+
+    height: 75px;
+    max-width: 50%;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    padding: 0%;
+
+
+}
+
+.container_horarios .col {
+    background-color: rgb(247, 216, 171);
+    border: rgb(250, 249, 249) solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table {
+    margin: 0 auto;
+    width: 910px;
+    height: 350px;
+    margin-bottom: 0%;
+    position: relative;
+    top: 50px;
+}
+.boton{
+    margin-left: 1058px;
+    margin-top:60px ;
+   
+}
