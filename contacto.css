@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+    max-width: 120px;
+}
+
+.seccion h1{
+    margin-left: 20px;
+    font-size: 100px;
+    color: rgb(255, 183, 0);
+}
+.seccion h3{
+    margin-left: 20px;
+    font-size: 35px;
+    color: rgb(255, 183, 0);
+}
+
+.seccion .d-grid{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
+@media (max-width: 575px) {
+    .seccion h1{
+        font-size: 50px;
+    }
+
+    .seccion h3{
+        font-size: 20px;
+    }
+}

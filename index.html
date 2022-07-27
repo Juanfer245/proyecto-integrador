@@ -2,97 +2,398 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>American Latin Class</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>American Latin Class</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
 </head>
 
 <body>
-    <header id="header" class="sticky-top">
-        <nav class="navbar navbar-expand-lg" style="background-color:#F7D8AB">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <img id="logo" src="img/logo_academia.png" alt="LOGO" />
-                </a>
-                <button class="navbar-toggler" type="button" style="background-color:rgb(247, 216, 171)"
-                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0" )>
-                        <li class="nav-item" style="font-family: Segoe UI">
-                            <a class="nav-link" aria-current="page" href="">Home</a>
-                        </li>
-                        <li class="nav-item" style="font-family: Segoe UI">
-                            <a class="nav-link" href="">Galeria</a>
-                        </li>
-                        <li class="nav-item" style="font-family: Segoe UI">
-                            <a class="nav-link" href="">Contactos</a>
-                        </li>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="“false”">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="king" src="img/danceara.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-                <img class="king" src="img/folkdance.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-                <img class="king" src="img/hiphop.jpg" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-                <img class="king" src="img/latin.jpg" class="d-block w-100" alt="..." />
-            </div>
+  <header id="header" class="sticky-top">
+    <nav class="navbar navbar-expand-lg" style="background-color:#F7D8AB">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/logo_academia.png" alt="LOGO" />
+        </a>
+        <button class="navbar-toggler" type="button" style="background-color:rgb(247, 216, 171)"
+          data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
+            <li class="nav-item" style="font-family: Segoe UI">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item" style="font-family: Segoe UI">
+              <a class="nav-link" href="encuentranos.html">Encuentranos</a>
+            </li>
+            <li class="nav-item" style="font-family: Segoe UI">
+              <a class="nav-link" href="contacto.html">Contactos</a>
+            </li>
+            <li class="nav-item" style="font-family: Segoe UI">
+              <a class="nav-link" href="login.html">Inicio de sesion</a>
+            </li>
         </div>
-        <div class="overlay">
-            <!-- Pt = Pading Top-->
-            <div class="container">
-                <!-- Alineamos los items al centro-->
-                <div class="row aling-items-center">
-                    <div class="col-md-8 offset-md-2 text-center text-lg-rigth">
-                        <h1>La mejor academia del baile del Ecuador</h1>
-                        <p>
-                            Un nuevo concepto de aprendizaje, promociones y rehabilitación de la salud para quienes
-                            buscan mejorar el acondicionamiento y demostrar sus destrezas en el baile.
-                        </p>
-                        <button type="button" class="btn btn-light" data-bs-toggle="modal"
-                            data-bs-target="#modalFormulario">Sobre nosotros</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-pause="“false”">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="king" src="img/danceara.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img class="king" src="img/folkdance.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img class="king" src="img/hiphop.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img class="king" src="img/latin.jpg" class="d-block w-100" alt="..." />
+      </div>
     </div>
-    <br>
-    <h2 class="title text-center">Sobre Nosotros</h2>
-    <div class="container1">
-        <p class="paragraph">
-            El baile es mucho más que simplemente bailar tus canciones favoritas. Seguramente te sorprenderías saber
-            cuántos beneficios están asociados con el baile. No solo entrena el cerebro y las habilidades motoras de tu
-            cuerpo sino que además es un excelente ejercicio para todo tu cuerpo. Te ayuda a mantenerte en buena forma
-            física y mental. Bailar regularmente puede mejorar tu bienestar general, aumentar tu autoestima y también se
-            ha demostrado que mejora tus habilidades sociales.No importa si eres un bailarín profesional o disfrutas
-            de bailar como una actividad recreativa, a veces puede ser un poco difícil levantarse del cómodo sofá y
-            asistir a clases de baile. Para ayudarte a encender esa
-            chispa inicial he recopilado la siguiente selección de frases de baile.Mover tu cuerpo al ritmo que toca la
-            música es una forma comprobada de reducir el estrés y liberar endorfinas.
-            Bailar es la única actividad física que tiene la capacidad de disipar los estados de ansiedad, depresión y
-            estrés; incluso si es solo por unos cuantos minutos, bailar te hace sentir fresca y llena de energía
-        </p>
-    </div>
-    <section id="galeria">
-        <div class="col-lg-4">
-            <img class="clase" src="img/part.jpg" alt="Galeria Imagen">
+    <div class="overlay">
+      <!-- Pt = Pading Top-->
+      <div class="container">
+        <!-- Alineamos los items al centro-->
+        <div class="row aling-items-center">
+          <div class="col-md-8 offset-md-2 text-center text-lg-rigth">
+            <h1>La mejor academia del baile del Ecuador</h1>
+            <p>
+              Un nuevo concepto de aprendizaje, promociones y rehabilitación de la salud para quienes
+              buscan mejorar el acondicionamiento y demostrar sus destrezas en el baile.
+            </p>
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modalFormulario">Sobre
+              nosotros</button>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h2 class="title text-center">Sobre Nosotros</h2>
+  <div class="container1">
+    <p class="paragraph">
+      El baile es mucho más que simplemente bailar tus canciones favoritas. Seguramente te sorprenderías saber
+      cuántos beneficios están asociados con el baile. No solo entrena el cerebro y las habilidades motoras de tu
+      cuerpo sino que además es un excelente ejercicio para todo tu cuerpo. Te ayuda a mantenerte en buena forma
+      física y mental. Bailar regularmente puede mejorar tu bienestar general, aumentar tu autoestima y también se
+      ha demostrado que mejora tus habilidades sociales.No importa si eres un bailarín profesional o disfrutas
+      de bailar como una actividad recreativa, a veces puede ser un poco difícil levantarse del cómodo sofá y
+      asistir a clases de baile. Para ayudarte a encender esa
+      chispa inicial he recopilado la siguiente selección de frases de baile.Mover tu cuerpo al ritmo que toca la
+      música es una forma comprobada de reducir el estrés y liberar endorfinas.
+      Bailar es la única actividad física que tiene la capacidad de disipar los estados de ansiedad, depresión y
+      estrés; incluso si es solo por unos cuantos minutos, bailar te hace sentir fresca y llena de energía
+    </p>
+  </div>
+  <section id="galeria">
+    <div class="col-lg-4">
+      <img class="clase" src="img/part.jpg" alt="Galeria Imagen">
+    </div>
+  </section>
+  <div class="instruc">
+    <section id="productos" class=" mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small style="font-family: Rockwell">American Latin Class</small>
+            <h2 style="font-family: Rockwell">DIRECTORES</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-3">
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/juan.jpeg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">Juan Pablo</h5>
+              <p class="card-text">Al tener una edad de 35 anios y hacerse cargo de la cademia a logrado diferentes
+                logros en su largo trayecto, su mayor cualidad es apoyar a sus estudiantes y no dejar que se dejen
+                derrotar por malos comentarios</p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/mat.jpeg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">Mathias Orozco</h5>
+              <p class="card-text">Al tener 14 anios se ha destacado notoriamente en las presentaciones que ha tenido en
+                la academia al punto de desembolverse solo y dar diferentes generos musicales </p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/mas.jpeg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">Master Class</h5>
+              <p class="card-text">Un conjunto de amigos los cuales dan una de las mejores clases que tiene la academia
+                haciendo emocionar a los chicos para que puedan aprender nuevos pasos y nuevos moviemientos con su
+                cuerpo</p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/iv.jpeg" class="card-img-top" alt="image" height="290">
+            <div class="card-body">
+              <h5 class="card-title">Ivan Pareja</h5>
+              <p class="card-text">Un gran instructor con la mejor experiencia al momento de impartir sus clases , se
+                caracteriza por ser un chico carismatico y alegra con todos sus estudiantes
+              </p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+  </div>
+  <br>
+  <hr>
+  <div class="instruc">
+    <section id="productos" class=" mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small style="font-family: Rockwell">American Latin Class</small>
+            <h2 style="font-family: Rockwell">Instructores</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-3">
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/olf.jpg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">Yadira Pacheco</h5>
+              <p class="card-text">Una amplia experiencia sobre el old school lo cual nos da una mayor facilidad
+                enseniar nuevos ritmos</p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/ar.jpg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">Mayerli Cruz</h5>
+              <p class="card-text">Una gran instrutctora que nos ayuda a entender sobre la danza del abdomen y
+                moviemientos de cadera</p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/ur.jpg" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">Nenger</h5>
+              <p class="card-text">Bailarin profesional en ritmos urbanos dancehall, afrodance, hip-hop, brakdance,
+                commercial dance, house, entre otros</p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card" style="width: 18rem; font-family: Rockwell;">
+            <img src="img/fol.jpg" class="card-img-top" alt="image" height="280">
+            <div class="card-body">
+              <h5 class="card-title">Jocelyn Santillan</h5>
+              <p class="card-text">Instructora de danza folcklorica con 14 anios de experiencia Representante del Ballet
+                Latinoamericana
+              </p>
+              <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <br>
+  <div class="cuadrado">
+    <br>
+    <div class="instruc">
+      <section id="productos" class=" mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center text-uppercase">
+              <h2 style="color:rgb(255, 255, 255)">Servicios</h2>
+              <p style=" color:rgb(246, 241, 241)">A nadie le importa si no puedes bailar bien. Solo
+                levántate y baila. Los grandes bailarines son geniales gracias a su pasión.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row gy-3">
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem; font-family: Rockwell;">
+              <img src="img/merican2.jpeg" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Danza Arabe</h5>
+                <p class="card-text">La danza folclórica oriental ha sido tradicionalmente improvisada por una sola
+                  bailarina, aunque ahora pueden verse espectáculos con coreografía y varias bailarinas.</p>
+                <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem; font-family: Rockwell;">
+              <img src="img/merican3.jpeg" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Folklore</h5>
+                <p class="card-text">La danza folklórica oriental ha sido tradicionalmente improvisada por una sola
+                  bailarina, aunque ahora pueden verse espectáculos con coreografía y varias bailarinas. </p>
+                <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem; font-family: Rockwell;">
+              <img src="img/merican4.jpeg" class="card-img-top" alt="image">
+              <div class="card-body">
+                <h5 class="card-title">Ballet Contemporaneo</h5>
+                <p class="card-text">Entre sus características distintivas están el uso de las puntas, sus gráciles, sus
+                  fluidos y precisos movimientos, y sus cualidades etéreas.</p>
+                <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" style="width: 18rem; font-family: Rockwell;">
+              <img src="img/merican5.jpeg" class="card-img-top" alt="image" height="290">
+              <div class="card-body">
+                <h5 class="card-title">Urbano</h5>
+                <p class="card-text">Las danzas urbanas son un conjunto de estilos de baile de relativa reciente
+                  aparición, y que actualmente cuentan con un grandísimo número de adeptos en los núcleos urbanos más
+                  importantes.
+                </p>
+                <a href="contactos.html" class="btn btn-primary">Solicitar informacion</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <a class="boton" href="horarios.html">horarios</a>
+    <br>
+  </div>
+  <br>
+  <div class="col text-center text-uppercase">
+    <h2 style="color:rgb(8, 8, 8)">Eventos</h2>
+    <p style=" color:rgb(0, 0, 0)">Los mejores eventos de nuestra academia de baile
+    </p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card1">
+          <img src="img/bacha.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bachata</h5>
+            <p class="card-text">Ven y disfruta con tu pareja en esta noche especial solo por el 29 de julio 2x1 en
+              clases de bachata</p>
+            <a href="#" class="btn btn-primary">Confirmar asistencia</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card1">
+          <img src="img/calie.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Viernes de Salsa</h5>
+            <p class="card-text">No te pierdas de este proximo viernes 5 de agosto clases de salsa totalmente gratuito
+            </p>
+            <a href="#" class="btn btn-primary">Confirmas Asistencia</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="card1">
+          <img src="img/championships.png" class="card-img-top" alt="..." height="232">
+          <div class="card-body">
+            <h5 class="card-title">Championship</h5>
+            <p class="card-text">Ven y apoya a nuestros chicos en su proxima presentacion el 20 de agosto no te lo
+              pierdas sera un gran evento </p>
+            <a href="#" class="btn btn-primary">Confirmar asistencia</a>
+          </div>
+        </div>
+      </div>
+      <div class="col text-center text-uppercase">
+        <h3>
+          Nuestras instalaciones
+        </h3>
+      </div>
+      <div class="sur">
+        <p2>Sucursal Sur</p2>
+        <p3>Sector Barrionuevo Oe5-506 y Canelo</p3>
+      </div>
+      <div class="norte">
+        <p4>Sucursal Norte</p4>
+        <p5>Vicente Cardenas E5-36 entre Japón y
+          Amazonas</p5>
+      </div>
+      <div class="video-container">
+        <div class="video"><video src="img/American Latin Class.mp4" controls></video></div>
+        <div class="video"><video src="img/American Latin Class.mp4" controls></video></div>
+
+      </div>
+      <br>
+      <br>
+      <div class="modal fade" id="modalFormulario" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">GRACIAS POR TU INTERES EN UNIRTE A AMERICAN LATIN
+                CLASS
+              </h5>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <small>Ayudanos con tu Correo Electronico:</small>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                      <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                        aria-describedby="basic-addon1">
+                    </div>
+                    <div class="alert alert-info" role="alert">
+                      Se le enviara un correo de respueta.
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <a href="contactos.html" class="btn btn-outline-dark">informacion</a>
+              <a href="index.html" class="btn btn-outline-dark">cancelar</a>
+              <a href="index.html" class="btn btn-outline-dark">aceptar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer" class="pb-4 pt-4">
+        <div class="container">
+          <div class="row text-center">
+
+            <div class="col-12 col-lg">
+              <h6>© Derechos reservados de American Latin Class.</h6>
+            </div>
+          </div>
+        </div>
+      </footer>
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
 </body>
